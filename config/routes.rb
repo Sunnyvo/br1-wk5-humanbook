@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   get 'sessions/new'
+
+  post 'fb_login' => 
   
   post 'friendship/create' => "friendships#create"
   post 'friendship/destroy' => "friendships#destroy"
