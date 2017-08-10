@@ -17,3 +17,4 @@ class FriendshipsController < ApplicationController
     params.require(:friendship).permit(:friend_id)
   end
 end
+
